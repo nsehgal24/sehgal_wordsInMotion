@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page1{
+  background: black;
+}
+
+.page2{
+  background:#F22929;
+}
+
+.page3{
+  background:#F2B705;}
+
+.page4{
+  background:#48A61C;}
+
+h1{
+  font-family: "Bungee Shade";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+ h2{
+  font-family: "Bungee Inline";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+ }
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  color: white;
+}
+
+.line1{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  gap: 2%;
+}
+
+/* .opener:hover{
+
+} */
+.opener{
+  color: #F22929;
+  transform: scale(1.5);
+}

@@ -111,6 +111,10 @@ h2{
   gap: 2%;
 }
 
+#line1:hover{
+  transform: translate(100px,100px);
+}
+
 .opener:hover{
    transform: scale(1.5);
 }

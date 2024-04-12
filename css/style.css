@@ -10,19 +10,19 @@ body{
 }
 
 #page1{
-  background: black;
+  background: #000814;
 }
 
 #page2{
-  background:#F22929;
+  background:#BD1919;
 }
 
 #page3{
-  background:#F2B705;
+  background:#ffc300;
 }
 
 #page4{
-  background:#4D8632;
+  background:#7A9F35;
 }
 
 a{
@@ -35,7 +35,7 @@ h1{
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  color: white;
+  color: #faf9f9;
 }
 
 h2{
@@ -60,12 +60,13 @@ h2{
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  color: black;
+  color: #000814;
+  color: inherit;
   margin-bottom: 5%;
  }
 
  h5{
-  color: #F22929;
+  color: #BD1919;
   text-align: center;
   font-family: "Bungee Inline";
   font-size: 64px;
@@ -75,7 +76,7 @@ h2{
  }
 
  h6{
-  color: #F2B705;
+  color: #ffc300;
   font-family: Bungee;
   font-size: 36px;
   font-style: normal;
@@ -83,6 +84,9 @@ h2{
   text-wrap: nowrap;
   margin-left: 2%;
   margin-top: 1%;
+  animation: pg2animation2;
+  animation-direction: sideways;
+  animation-duration: 3s;
  }
 
  p{
@@ -90,17 +94,17 @@ h2{
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  color: #F22929;
+  color: #BD1919;
  }
 
-.p1{
+.pg1{
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
-  color: white;
+  color: #faf9f9;
 }
 
 #line1{
@@ -111,16 +115,14 @@ h2{
   gap: 2%;
 }
 
-#line1:hover{
-  transform: translate(100px,100px);
+.p1:hover{
+   transform: scale(1.5) translateY(75px);
+   transition-timing-function: ease;
+   transition-duration: 2s;
 }
 
-.opener:hover{
-   transform: scale(1.5);
-}
-
-.opener{
-  color: #F22929;
+.p1{
+  color: #BD1919;
 }
 
 .pg2{
@@ -132,7 +134,7 @@ h2{
 }
 
 .p2{
-  color: #4D8632;
+  color: #7A9F35;
   text-align: left;
   margin-left: 30%;
   margin-bottom: 5%;
@@ -140,16 +142,20 @@ h2{
 
 .p2:hover{
   transform: scale(1.5);
-}
-
-.saying{
-  color: #F2B705;
-  text-align: right;
-  margin-left: 25%;
+  transition-timing-function: ease;
+  transition-duration: 1s;
 }
 
 #saying{
+  color: #ffc300;
   margin-top: 3%;
+  margin-right: 2%;
+  text-align: right;
+  margin-left: 25%;
+  animation: pg2animation2;
+  animation-direction: sideways;
+  animation-duration: 3s;
+  animation-delay: 3s;
 }
 
 .pg3{
@@ -157,23 +163,36 @@ h2{
 }
 
 #wo{
+  margin-top: 4%;
   margin-bottom: 6%;
+}
+
+#wo:hover{
+  transform: rotate(360deg);
+  transition-timing-function: ease-in;
+  transition-duration: 2s;
 }
 
 #p3h41{
   width: 50%;
   text-align: left;
   margin-left: 2%;
+  animation: pg2animation1;
+  animation-direction: sideways;
+  animation-duration: 3s;
 }
 
 #p3h42{
   margin-left: 40%;
   margin-right: 2%;
   text-align: right;
+  animation: pg2animation2;
+  animation-direction: sideways;
+  animation-duration: 3s;
 }
 
 #p3h43{
-  color: #F22929;
+  color: #BD1919;
   width: 505px;
   margin-top: 100px;
   margin-left: 173px;
@@ -181,7 +200,7 @@ h2{
 }
 
 #p3h44{
-  color: #F22929;
+  color: #BD1919;
   text-align: right;
   width: 505px;
   margin-left: 780px;
@@ -190,16 +209,19 @@ h2{
 .p4h2{
   margin-top: 3%;
   margin-left: 2%;
-  color: white;
+  margin-bottom: 4%;
+  color: #faf9f9;
   text-align: left;
 }
 
 .p4h2:hover{
   transform: scale(1.5)translate(300px);
+  transition-timing-function: ease;
+  transition-duration: 1s;
 }
 
 .p4h21{
-  color: white;
+  color: #faf9f9;
   text-align: left;
   margin-left: 30%;
   margin-bottom: 5%;
@@ -207,11 +229,17 @@ h2{
 
 .p4h21:hover{
   transform: scale(1.5);
+  transition-timing-function: ease;
+  transition-duration: 1s;
 }
 
 #p4h4{
-  color: #F2B705;
+  color: #ffc300;
   text-align: right;
+  margin-right: 2%;
+  animation: pg2animation2;
+  animation-direction: sideways;
+  animation-duration: 3s;
 }
 
 .line4{
@@ -222,43 +250,170 @@ h2{
 }
 
 #p4h5{
-  color: white;
+  color: #faf9f9;
   text-align: right;
   margin-right: 2%;
+  animation: pg2animation1;
+  animation-direction: sideways;
+  animation-duration: 3s;
 }
 
 #p4h41{
   text-align: right;
   margin-top: 5%;
+  margin-right: 2%;
+  animation: pg2animation2;
+  animation-direction: sideways;
+  animation-duration: 3s;
+  animation-delay: 8s;
 }
 
 #p4h42{
-  color: #F22929;
+  color: #BD1919;
   text-align: center;
-  margin-top: 5%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+#p4h42:hover{
+  transform: rotate(360deg);
+  transition-timing-function: ease-in;
+  transition-duration: 2s;
 }
 
 #p4h43{
-  color: #F2B705;
+  color: #ffc300;
   text-align: left;
   margin-left: 2%;
   width: 800px;
+  animation: pg2animation1;
+  animation-direction: sideways;
+  animation-duration: 3s;
+  animation-delay: 15s;
+}
+
+#p4h44{
+  margin-left: 2%;
+  animation: pg2animation1;
+  animation-direction: sideways;
+  animation-duration: 3s;
+  animation-delay: 8s;
 }
 
 #p4h51{
-  color: white;
+  color: #faf9f9;
   text-align: right;
   margin-right: 2%;
   margin-left: 367px;
   margin-bottom: 5%;
+  animation: pg2animation2;
+  animation-direction: sideways;
+  animation-duration: 3s;
+  animation-delay: 17s;
 }
 
 footer{
   display: flex;
   flex-direction: row;
   gap: 1%;
-  background: black;
+  background: #000814;
   height: 80px;
   justify-content: right;
   align-items: center;
+}
+
+footer h1{
+  margin-right: 1%;
+}
+
+footer p{
+  animation: pg3animation;
+  animation-direction: ease forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+  animation-delay: 18s;
+}
+
+@keyframes pg2glow{
+  from{
+    text-shadow: none;
+  }
+  to{
+    text-shadow:  0 0 10px #ffc300;
+  }
+}
+
+#saying2{
+  animation: pg2glow;
+  animation-direction: ease forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+  animation-delay: 3s;
+}
+
+@keyframes pg1animation {
+  from {
+    position: relative;
+    top: 600px;
+    text-shadow: none;
+  }
+  to {
+    position: relative;
+    top: 0;
+    text-shadow:  0 0 20px #faf9f9;
+  }
+}
+
+.pg1 h3 {
+  animation: pg1animation;
+  animation-direction: ease forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+}
+
+@keyframes pg2animation1{
+  from {
+    position: relative;
+    left: 100%;
+  }
+  to {
+    position: relative;
+    left: 0%;
+  }
+}
+
+.hear{
+  animation: pg2animation1;
+  animation-direction: sideways;
+  animation-duration: 3s;
+}
+
+@keyframes pg2animation2{
+  from {
+    position: relative;
+    right: 100%;
+  }
+  to {
+    position: relative;
+    right: 0%;
+  }
+}
+
+@keyframes pg3animation{
+  from{
+    opacity: 0%;
+    text-shadow: none;
+  }
+  to{
+    opacity: 100%;
+    text-shadow:  0 0 10px #BD1919;
+  }
+}
+
+#p3h43, #p3h44{
+  animation: pg3animation;
+  animation-direction: ease forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 6s;
+  animation-delay: 8s;
 }

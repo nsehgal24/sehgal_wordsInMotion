@@ -312,6 +312,10 @@ h2{
   animation-delay: 18s;
 }
 
+#p4h51:hover{
+  color:#ffc300;
+}
+
 footer{
   display: flex;
   flex-direction: row;
@@ -334,12 +338,16 @@ footer p{
   animation-delay: 18s;
 }
 
+footer:hover p{
+  color: #faf9f9;
+}
+
 @keyframes pg2glow{
   from{
     text-shadow: none;
   }
   to{
-    text-shadow:  0 0 10px #ffc300;
+    text-shadow:  0 0 20px #ffc300;
   }
 }
 
@@ -348,19 +356,23 @@ footer p{
   animation-direction: ease forwards;
   animation-timing-function: ease-in-out;
   animation-duration: 8s;
-  animation-delay: 3s;
+  animation-delay: 2s;
+}
+
+#saying2:hover{
+  color: #faf9f9;
 }
 
 @keyframes pg1animation {
   from {
     position: relative;
     top: 600px;
-    text-shadow: none;
+    text-shadow: 0;
   }
   to {
     position: relative;
     top: 0;
-    text-shadow:  0 0 20px #faf9f9;
+    text-shadow: 0 0 10px #faf9f9;
   }
 }
 
@@ -369,6 +381,10 @@ footer p{
   animation-direction: ease forwards;
   animation-timing-function: ease-in-out;
   animation-duration: 5s;
+}
+
+.pg1:hover h3{
+  color: #BD1919;
 }
 
 @keyframes pg2animation1{
@@ -416,4 +432,12 @@ footer p{
   animation-timing-function: ease-in-out;
   animation-duration: 6s;
   animation-delay: 8s;
+}
+
+#p3h43:hover{
+  color:#faf9f9
+}
+
+#p3h44:hover{
+  color:#faf9f9
 }
